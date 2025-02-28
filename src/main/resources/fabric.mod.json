@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "thefixer",
+  "version": "${version}",
+  "name": "thefixer",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/thefixer/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "thefixer.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
